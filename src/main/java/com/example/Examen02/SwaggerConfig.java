@@ -12,10 +12,10 @@ public class SwaggerConfig {
     public OpenAPI configuration() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Exam01.03")
-                        .description("Exam01.03")
-                        .version("1.2.0")
-                        .contact(new Contact().name("Altai")));
+                        .title("Exam02")
+                        .description("Exam02")
+                        .version("2.1.6")
+                        .contact(new Contact().name("Amir")));
     }
 
 }

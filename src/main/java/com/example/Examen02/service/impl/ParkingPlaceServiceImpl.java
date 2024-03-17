@@ -20,6 +20,7 @@ import java.util.List;
 @Slf4j
 public class ParkingPlaceServiceImpl implements ParkingPlaceService {
     private final ParkingPlaceRepo parkingPlaceRepo;
+    @Override
     public List<ParkingPlaceDto> findAll() {
         List<ParkingPlace> parkingPlaceEntities = parkingPlaceRepo.findAll();
 
